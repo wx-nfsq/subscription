@@ -26,6 +26,19 @@ export default defineAppConfig({
           snapshotUrls: 'https://i.gkd.li/import/13379426',
         },
       ],
+    }, 
+    {
+      key: 2,
+      name: '首页-顶部广告条幅',
+      activityIds: ['com.autonavi.map.activity.NewMapActivity'],
+      rules: [
+        {
+          matches: '[id$="/msgbox_popup_clear"]',
+          snapshotUrls: [
+            'https://i.gkd.li/import/13930780'
+          ],
+        },
+      ],
     },
     {
       enable: false,
